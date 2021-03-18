@@ -685,4 +685,14 @@ img {
   margin-left: auto;
   margin-bottom: auto;
 }
+
+.overview-detail .job-card-title,
+.overview-detail .job-card-subtitle {
+  margin-top: 4px;
+}
+
+.overview-detail .job-card-subtitle {
+  font-size: 12px;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
