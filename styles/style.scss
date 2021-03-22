@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display+SC&display=swap');
+
 
 * {
   outline: none;
@@ -13,7 +14,7 @@ html {
 
  
 :root {
-   --title-font: "Playfair Display", sans-serif;
+   --title-font: "Playfair Display SC", sans-serif;
   --body-bg-color: #e5ecef;
   --theme-bg-color: #fafafb;
   --body-font: "Montserrat", sans-serif;
@@ -75,10 +76,14 @@ img {
   }
   .job-card svg{
     box-shadow: none;
+    
   }
-
+  .main-logo{
+    color: var(--body-color);
+  }
   .search.item{
     color: var(--body-color);
+    border-color: var(--body-color);
   }
   .search-location,
   .search-job,
@@ -311,7 +316,7 @@ img {
   flex-direction: column;
   height: 100%;
   flex-shrink: 0;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .alert {
